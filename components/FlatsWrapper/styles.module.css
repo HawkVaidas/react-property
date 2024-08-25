@@ -1,0 +1,19 @@
+
+.flatsWrapper {
+    display: grid;
+    flex-wrap: wrap;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    width: 100%;
+}
+@media (max-width: 768px) {
+    .flatsWrapper{
+    grid-template-columns: 1fr 1fr;
+    }
+}
+@media (max-width: 500px) {
+    .flatsWrapper{
+    grid-template-columns: 1fr;
+    }
+}
